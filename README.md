@@ -60,6 +60,37 @@
 - **Conclusion**    
 
 
-# Approaches Used  
+# Methodologies Utilized
+
+**The approaches used in this project are:**
+
+**1.Popularity Based recommendation system**
+
+**It is a type of recommendation system that bases choices on factors like popularity and/or current trends. These systems determine which item (in this case,books) are in the trending list or are the most well-liked by users and then directly recommend them.**
+
+- **Weighted average rating approach**
+- **Country-wise approach**
+- **Author-wise approach**
+
+**2.Collaborative Filitering Based recommendation system**
+
+**The Collaborative Filtering approach first investigates the user’s behaviors, interests, and searches for similar users. It recommends items to users based on the ratings of similar users on various items and by predicting the missing ratings of the items . CF is broadly classified as memory-based and model-based CF.**
+
+- **Memory Based approach - KNN (similarity between items)**
+- **Model Based approach- SVD based recommendation system (prediction of ratings)**
+
+# Conclusion :-
+
+- **The Lovely Bones: A Novel and Wild Animus are the two most read books.**
+- **Stephen King is the most popular book author based on the number of ratings.**
+- **Ballantine Books and Pocket are the top publishers based on the number of ratings that their books have received.**
+- **The majority of readers are between the ages of 25 and 40.**
+- **The majority of readers who have given the books ratings are from the United States and Canada.**
+- **Regardless of the age group, The Lovely Bones and Wild Animus appear on lists of the top-rated books.**
+- **We have built five types of recommendation systems and did evaluation for one of them.**
+- **In the case of Memory-based approach, the Cosine similarity-based KNN performs better at recommending books that are similar than the Euclidean distance-based KNN.**
+- **After evaluation for Collaborative-Model Based Recommendation system, we got a recall@5 of 30% and recall@10 of 41%.**
+
+
       
                 
